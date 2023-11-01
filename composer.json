@@ -1,0 +1,15 @@
+{
+	"name": "prappo/wp-vite-react",
+	"description": "Wordpress vite react boilerplate",
+	"autoload": {
+        "psr-4": {
+            "PluginName\\": "includes/",
+            "PluginName\\Admin\\": "includes/admin/",
+            "PluginName\\Frontend\\": "includes/frontend/"
+        },
+        "files": [
+            "includes/functions.php",
+			"libs/vite.php"
+        ]
+    }
+}
